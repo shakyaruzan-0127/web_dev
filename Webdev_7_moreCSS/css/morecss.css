@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 2rem;
+  text-align: center;
+  font-size: 250%;
+}
+
+body {
+  font-size: 1.05rem;
+  border: 5px solid #ae2727;
+  margin: 1.1rem;
+  padding: 3rem;
+  text-align: justify;
+  outline: 5px green;
+  outline-offset: 2px;
+} 
+
+button, input, select, textarea {
+  font: inherit;
+}
+h2 {
+  color: #00ff00;
+}
+
+article {
+  text-transform: uppercase;
+}

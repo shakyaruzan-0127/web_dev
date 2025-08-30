@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  min-height: 200vh;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.5rem;
+}
+
+.outer-container {
+  border: 3px dashed black;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+}
+
+.inner-container {
+  border: 3px solid rgb(0, 47, 255);
+  width: 45vw;
+  height: 55vh;
+  margin: 200px auto;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: white;
+  padding: 1rem;
+}
+
+.absolute {
+  background-color: blue;
+  position: static;
+  top: 0;
+  left: 0;
+  /* left: -10000; */
+}
+
+.relative {
+  position: relative;
+  background-color: red;
+  top: 200px;
+  left: 100px;
+}
+
+.fixed {
+  background-color: green ;
+  position: fixed;
+  top: 100px;
+}
+
+.sticky {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}

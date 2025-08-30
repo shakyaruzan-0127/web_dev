@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>em Example</title>
+  <style>
+    button {
+      font-size: 16px; /* base font size */
+      padding: 0.5em 1em;
+      margin: 10px;
+    }
+
+    /* icon inside the button */
+    .icon {
+      font-size: 1.2em; /* 1.2 × button's font-size */
+      margin-right: 0.5em;
+    }
+
+    /* Larger button */
+    .large {
+      font-size: 24px; /* bigger text, icon scales too */
+    }
+
+    /* Smaller button */
+    .small {
+      font-size: 12px; /* smaller text, icon shrinks too */
+    }
+  </style>
+</head>
+<body>
+  <button class="small">
+    <span class="icon">📌</span> Small Button
+  </button>
+
+  <button>
+    <span class="icon">📌</span> Normal Button
+  </button>
+
+  <button class="large">
+    <span class="icon">📌</span> Large Button
+  </button>
+</body>
+</html>

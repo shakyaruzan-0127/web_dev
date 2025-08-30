@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form2</title>
+  <link rel="stylesheet" href="css/form2.css">
+</head>
+
+<body>
+  <form action="output2.html" method="GET">
+    <h2>Organ_black_market_form</h2>
+    <hr>
+    <div>
+      <label for="username">User_name:</label>
+      <input type="text" name="Full_Name" id="username" required>
+    </div>
+    <br>
+    <div>
+      <label for="secretkey">Password_here:</label>
+      <input type="password" name="Provided_password" id="secretkey" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">Email_here:</label>
+      <input type="email" name="Provided_Email" id="email" required>
+    </div>
+    <hr>
+    <div>
+      <h4>Which organ would you like to sell?</h4>
+      <label for="liver">Liver</label>
+      <input type="checkbox" name="Wants-to-donate-liver" id="liver">
+    </div>
+    <br>
+    <div>
+      <label for="heart">Heart</label>
+      <input type="checkbox" name="Wants-to-donate-heart" id="heart">
+    </div>
+    <br>
+    <div>
+      <label for="lungs">Lungs</label>
+      <input type="checkbox" name="wants-to-donate-lungs" id="lungs">
+    </div>
+    <hr>
+    <h4>Select your gender</h4>
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" value="Male" id="male" required>
+    </div>
+    <div>
+      <label for="female">Female</label>
+      <input type="radio" name="Gender" value="Female" id="female" required>
+    </div>
+    <div>
+      <label for="others">Rather not Say</label>
+      <input type="radio" name="Gender" value="Not_Given" id="others" required>
+    </div>
+    <hr>
+    <div>
+      <label for="money">How-much-money-would-you-like-to-extort</label>
+      <select name="Money" required>
+        <option value="fifty_grand">Fifty_Grand</option>
+        <option value="hundred_grand">Hundred_Grand</option>
+        <option value="five-hundred_grand">five-hundred_Grand</option>
+        <option value="thousand_grand">Thousand_Grand</option>
+      </select>
+    </div>
+    <hr>
+    <div>
+      <label for="bio">Criminal_history</label>
+      <textarea style="display: block; width: 300px; height: 40px;" id="bio" name="Criminal_history" placeholder="Enter your entire criminal history and your prison serve time if done so" required></textarea>
+    </div>
+    <hr>
+    <label for="upload">Upload_your_cv</label>
+    <input type="file" name="Uploaded_file" id="upload">
+    <div>
+      <hr>
+      <div>
+        <label for="url">URL_of_your_website</label>
+        <input type="url" name="Given_URL" id="url">
+      </div>
+      <hr>
+      <div>
+        <button type="submit">
+          Submit the form
+        </button>
+        <button type="reset">
+          Clear all
+        </button>
+      </div>
+      <br>
+      <div>
+        <button type="button">
+          Register
+        </button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

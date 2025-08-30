@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2rem;
+}
+
+section {
+  height: 100vh;
+}
+
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: rgb(255, 0, 0);
+}
+.green {
+  background-color: rgb(7, 255, 19);
+}
+
+header, footer {
+  color: aliceblue;
+  text-align: center;
+  height: 100px;
+  
+}
+
+header {
+  font-size: 5rem;
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  background-color: black;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.social {
+  background-color: aqua;
+  color: blueviolet;
+  padding: 2rem;
+  font-size: inherit;
+  position: fixed;
+  left: 0;
+  z-index: 1;
+}

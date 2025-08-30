@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+/* horizontal-going along the y-axis */
+
+  align-items: center;
+  /* vertical-going along the x-axis */
+
+  align-content: flex-start;
+
+  flex-wrap: wrap;
+  background-color: #cacaca;
+  padding: 10px;
+  margin: 50px;
+}
+
+.item {
+  background-color: red;
+  color: #fff;
+  font-size: 35px;
+  padding: 20px;
+  margin: 10px;
+  flex-grow: 0;
+}
+
+
+
+
+.items-50 {
+  flex-grow: 5;
+}

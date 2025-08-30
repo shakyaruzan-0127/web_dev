@@ -1,0 +1,36 @@
+body {
+  min-height: 800px;
+  display: flex;
+  border: 5px solid black;
+  gap: 20px;
+  /* flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  align-items: center; 
+  align-content: center; */
+}
+
+.box-1 {
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  color: bisque;
+  height: 250px;
+  width: 250px;
+  font-size: 30pt;
+}
+
+
+#boxx {
+  flex-grow: 1;
+  max-width: 500px;
+}
+
+/* justify-content: Main-Axis Alignment
+align-items: cross-axis alignment 
+flex-wrap: Responsive Line Breaks
+flex-shrink: Allow getting smaller
+flex-grow: Allow getting bigger
+min-width & max-width: limit flex-grow &*/

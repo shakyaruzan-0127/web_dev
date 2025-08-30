@@ -1,0 +1,36 @@
+.main {
+  background-color: rgb(182, 219, 178);
+  border-color: rgb(0, 0, 0);
+  border-style: ridge;
+  margin: 10px;
+  padding: 10px;
+}
+
+.password {
+  margin-right: 9px;
+  font-weight: bold;
+}
+.email,
+.username,
+.age,
+.date {
+  font-weight: bold;
+  margin-right: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.username2,
+.password2,
+.email2,
+.age,
+.date {
+  padding: 5px;
+}
+
+.color {
+  vertical-align: middle;
+}
+
+.select {
+  vertical-align: middle;
+}

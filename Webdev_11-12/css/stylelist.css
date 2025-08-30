@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  padding: 5% 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+ol {
+  list-style:lower-alpha;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  /* list-style-image: url() ; */
+}
+
+ul li:nth-child(4){
+  color: aqua;
+}
+
+ul ::marker {
+  color: rgb(206, 15, 15);
+  content: "Only $5";
+}

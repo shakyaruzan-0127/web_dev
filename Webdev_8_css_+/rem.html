@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>rem Example</title>
+  <style>
+    html {
+      font-size: 16px; /* root font size */
+    }
+
+    button {
+      font-size: 16px; /* base font size */
+      padding: 0.5em 1em;
+      margin: 10px;
+    }
+
+    /* icon using rem */
+    .icon {
+      font-size: 1.2rem; /* always 1.2 × root (16px) = 19.2px */
+      margin-right: 0.5em;
+    }
+
+    /* Larger button */
+    .large {
+      font-size: 24px; /* text grows, but icon stays same size */
+    }
+
+    /* Smaller button */
+    .small {
+      font-size: 12px; /* text shrinks, but icon stays same size */
+    }
+  </style>
+</head>
+<body>
+  <button class="small">
+    <span class="icon">📌</span> Small Button
+  </button>
+
+  <button>
+    <span class="icon">📌</span> Normal Button
+  </button>
+
+  <button class="large">
+    <span class="icon">📌</span> Large Button
+  </button>
+</body>
+</html>

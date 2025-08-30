@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(176, 166, 149);
+  height: 100vh;
+  display: grid;
+
+  grid-template-areas: 
+  'header header header'
+  'nav content sidebar'
+  'nav footer footer';
+  grid-template-columns: 1fr 4fr 2fr;
+  grid-template-rows: 80px 1fr 80px;
+}
+
+header, 
+footer, 
+main, 
+aside, 
+nav {
+  background-color: bisque;
+  color: black;
+  padding: 20px;
+  border: 2px greenyellow solid;
+} 
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: content;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}

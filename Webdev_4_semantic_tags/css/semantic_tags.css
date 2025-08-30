@@ -1,0 +1,29 @@
+h1, h2, h3, h4, p, nav {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+img {
+    width: 200px;
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid blueviolet;
+  border-width: 10px;
+}
+
+section, aside {
+  border: 2px solid rgb(58, 120, 168);
+  padding: 20px;
+  margin: 5px;
+}
+
+footer {
+  font-weight: 100;
+  text-align: center;
+  background-color: rgb(33, 30, 30);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}

@@ -1,0 +1,34 @@
+*{
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.col {
+  /* column-count: 4;
+  column-width: 200px; */
+  columns: 4 200px ;
+  column-rule: 2px solid red;
+}
+
+.col p {
+  margin-top: 0;
+}
+
+.col h2 {
+  margin-top: 0;
+  background-color: bisque;
+  padding: 1rem;
+  break-inside: avoid;
+}
+
+.col .colspan{
+  font-size: 2rem;
+  text-align: center;
+  color: blue;
+  column-span: all;
+  margin-top: 0.5rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+

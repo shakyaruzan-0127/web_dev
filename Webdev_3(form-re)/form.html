@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>form-revised</title>
+  <link rel="stylesheet" href="css/form_class.css">
+</head>
+
+<body>
+  <div class="main">
+    <h3>This is a remade Form exercise</h3>
+    <!--
+Elements: <div>, <label>, <input>
+Attributes: for, type, name, id
+Values: "Username", "text", "This-Is-The-Form-Username"
+-->
+    <!--enctype=multipart/form-data___for uploading file through multiple parts-->
+    <form action="output.html" method="GET" enctype="multipart/form-data">
+      <!--TEXT-->
+      <div>
+        <label class="username" for="Username">Name</label>
+        <input class="username2" type="text" name="This-Is-The-Form-Username" id="Username" placeholder="Enter username" required>
+      </div>
+      <br>
+      <!--PASSWORD-->
+      <div>
+        <label class="password" for="PasswordPlz">Password</label>
+        <input class="password2" type="password" name="This-Is-The-Form-Password" id="PasswordPlz" placeholder="Enter password" required>
+      </div>
+      <br>
+      <!--EMAIL-->
+      <div>
+        <label class="email" for="EmailPlz">Email</label>
+        <input class="email2" type="email" name="This-Is-The-Form-Email" id="EmailPlz" placeholder="Enter email address" required>
+      </div>
+      <br>
+      <!--NUMBER-->
+      <div>
+        <label class="age" for="AgePlz">Age:</label>
+        <input class="age2" type="number" name="This-Shows-Age-In-Form" id="AgePlz" min="10" required>
+      </div>
+      <br>
+      <!--DATE-->
+      <div>
+        <label class="date" for="DatePlz">Date</label>
+        <input class="date2" type="date" name="This-Shows-Date-In-The-Form" id="DatePlz" max="2015-01-01" required>
+      </div>
+      <hr>
+      <!--CHECKBOX-->
+      <h4>What_do_you_Eat</h4>
+      <div>
+        <label for="BurgerPlz">&middot; Burger</label>
+        <input type="checkbox" name="Burger" id="BurgerPlz">
+      </div>
+      <br>
+      <div>
+        <label for="PizzaPlz">&middot; Pizza</label>
+        <input type="checkbox" name="Pizza" id="PizzaPlz">
+      </div>
+      <br>
+      <div>
+        <label for="HotdogPlz">&middot; Hotdog</label>
+        <input type="checkbox" name="Hotdog" id="HotdogPlz">
+      </div>
+      <hr>
+      <!--RADIO-->
+      <h4>What is your wish</h4>
+      <div>
+        <label for="FlyToMoon">Fly_To_Moon</label>
+        <input type="radio" name="Accepts-Only-One-Name" id="FlyToMoon" value="FlyToMoon">
+      </div>
+      <div>
+        <label for="FlyToMars">Fly_To_Mars</label>
+        <input type="radio" name="Accepts-Only-One-Name" id="FlyToMars" value="FlyToMars">
+      </div>
+      <div>
+        <label for="FlyToJupiter">Fly_To_Jupiter</label>
+        <input type="radio" name="Accepts-Only-One-Name" id="FlyToJupiter" value="FlyToJupiter">
+      </div>
+      <hr>
+      <!--SELECT/OPTION-->
+      <div>
+        <label class="color" for="PoopColor">Poop_Color</label>
+        <select class="select" name="Poop-Color" id="PoopColor" multiple>
+          <option value="Black">Black</option>
+          <option value="Brown">Brown</option>
+          <option value="Grey">Grey</option>
+          <option value="DarkBrown">DarkBrown</option>
+          <option value="DarkGrey">DarkGrey</option>
+        </select>
+      </div>
+      <hr>
+      <!--TEXTAREA-->
+      <div>
+        <label for="Bio">Enter your problem with poop</label>
+        <textarea style="display: block;" name="Your_Bio" id="Bio" placeholder="enter detailed information about poop"></textarea>
+      </div>
+      <hr>
+      <!--FILE UPLOAD-->
+      <div>
+        <input type="file" id="file" name="The_Given_File">
+      </div>
+      <hr>
+      <div>
+        <button type="submit">
+          Submit
+        </button>
+        <button type="reset">
+          Reset
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
