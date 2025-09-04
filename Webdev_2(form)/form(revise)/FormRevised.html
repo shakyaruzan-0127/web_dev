@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormRevised</title>
+  <link rel="stylesheet" href="css/FormRevised.css">
+</head>
+
+<body>
+  <main>
+    <form action="Results2.html">
+      <div>
+        <label for="name">Username</label>
+        <input type="text" name="outputusername" id="name" placeholder="enter username" required>
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="entered password" id="password" placeholder="enter password" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="entered email" id="email" placeholder="enter email">
+      </div>
+
+      <!-- --radiobox-- -->
+      <div>
+        <h4>Gender</h4>
+        <div>
+          <label for="male">male</label>
+          <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+          <label for="female">female</label>
+          <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <div>
+          <label for="other">Rather not say</label>
+          <input type="radio" name="gender" id="other" value="other">
+        </div>
+      </div>
+
+      <!-- checkbox -->
+      <div>
+        <h4>Your preferred stay</h4>
+        <div>
+          <label for="apartment">Apartment</label>
+          <input type="checkbox" name="Apartment" id="apartment">
+        </div>
+        <div>
+          <label for="house">House</label>
+          <input type="checkbox" name="House" id="house">
+        </div>
+        <div>
+          <label for="rental">Rental</label>
+          <input type="checkbox" name="Rental" id="rental">
+        </div>
+      </div>
+
+      <!-- select-option dropdown-->
+       <h2>house color</h2>
+      <div>
+        <label for="colors">Color</label>
+        <select id="color" name="color" multiple required>
+          <option value="red">red</option>
+          <option value="white">white</option>
+          <option value="black">black</option>
+        </select>
+      </div>
+
+      <div>
+        <h2>alliance</h2>
+        <div>
+          <label for="west">west</label>
+          <input type="radio" name="alliance" id="west" value="west">
+        </div>
+        <div>
+          <label for="east">east</label>
+          <input type="radio" name="alliance" id="east" value="east">
+        </div>
+      </div>
+      
+      
+      <div>
+        <div>
+          <button type="submit">
+            Submit
+          </button>
+        </div>
+        <div>
+          <button type="reset">
+            Reset
+          </button>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>

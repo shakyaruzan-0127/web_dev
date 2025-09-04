@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  border: 5px solid black;
+  height: 100vh;
+}
+.boxx {
+  display: flex;
+  flex-grow: 1;
+  
+  background-color: blue;
+  color: blueviolet;
+  height: 100px;
+  width: 100px;
+}
+
+section {
+  display: flex;
+  border: 5px solid black;
+  height: fit-content;
+}
+
+#box1 {
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+  flex-grow: 1;
+  /* max-width: 250px; */
+}
+
+
+

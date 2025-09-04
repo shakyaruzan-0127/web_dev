@@ -17,11 +17,17 @@ body {
   justify-content: center;
   background-color: blueviolet;
   color: bisque;
-  height: 250px;
+  height: 300px;
   width: 250px;
+  max-width: 250px;
   font-size: 30pt;
 }
 
+#box-5 {
+  width: 700px;
+  max-width: 700px;
+
+}
 
 #boxx {
   flex-grow: 1;
